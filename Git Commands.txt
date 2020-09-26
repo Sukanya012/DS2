@@ -6,6 +6,8 @@ Git SetUp
 4) cd \documents\DS
 5) git init
 6) ssh-keygen -t rsa -b 4096 -C "sukanya.anand12@gmail.com"
+--phasephrase is optional. just enter when it asks.
+--for LT-IT-009 it is test
 7) clip < ~/.ssh/id_rsa.pub
 8) paste the keys in notepad
 
