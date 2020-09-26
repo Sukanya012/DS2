@@ -1,0 +1,28 @@
+Git SetUp
+--------------
+1) Install bash from  https://git-scm.com/downloads
+2) launch bash
+3) cd \documents
+4) git init
+5) ssh-keygen -t rsa -b 4096 -C "sukanya.anand12@gmail.com"
+6) clip < ~/.ssh/id_rsa.pub
+7) paste the keys in notepad
+
+8) Login to github account
+9) Goto Profile --> Settings --->  ssh and gpg keys
+10) Add New Key -- Give a title and paste the Key and save
+
+
+git clone
+------------
+--copy the url from the code in github online
+git clone typetheurl
+eg: git clone git@github.com:Sukanya012/DS2.git
+
+git push
+-----------
+--goto the folder you want to commit
+--right click git bash here
+git add .
+git commit -m "give some comment here"
+git push
