@@ -2,15 +2,18 @@ Git SetUp
 --------------
 1) Install bash from  https://git-scm.com/downloads
 2) launch bash
-3) cd \documents
-4) git init
-5) ssh-keygen -t rsa -b 4096 -C "sukanya.anand12@gmail.com"
-6) clip < ~/.ssh/id_rsa.pub
-7) paste the keys in notepad
+3) create new folder in document - DS
+4) cd \documents\DS
+5) git init
+6) ssh-keygen -t rsa -b 4096 -C "sukanya.anand12@gmail.com"
+7) clip < ~/.ssh/id_rsa.pub
+8) paste the keys in notepad
 
-8) Login to github account
-9) Goto Profile --> Settings --->  ssh and gpg keys
-10) Add New Key -- Give a title and paste the Key and save
+
+9) Login to github account
+10) Goto Profile --> Settings --->  ssh and gpg keys
+11) Add New Key -- Give a title and paste the Key and save
+
 
 
 git clone
