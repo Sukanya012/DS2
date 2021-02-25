@@ -31,3 +31,26 @@ git push
 git add .
 git commit -m "give some comment here"
 git push
+
+--------------------------------------------------------
+repo : predict-health-index
+teamname : SSN-ds2-refactored
+
+#to check status of repo
+git status
+
+#to find list of branch
+git branch -a
+
+#to checkout from specific branch
+git checkout sukanya
+
+#to commit
+git add .
+git commit -m "comments"
+git push origin sukanya
+
+#to sync local with master
+git pull origin master
+
+
